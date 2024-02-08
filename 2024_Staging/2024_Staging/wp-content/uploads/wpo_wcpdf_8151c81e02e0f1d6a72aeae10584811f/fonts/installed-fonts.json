@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/OpenSans-Normal",
+        "bold": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/OpenSans-Bold",
+        "italic": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/OpenSans-Italic",
+        "bold_italic": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/Segoe-Normal",
+        "bold": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/Segoe-Bold",
+        "italic": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/Segoe-Italic",
+        "bold_italic": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/RobotoSlab-Normal",
+        "bold": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/RobotoSlab-Bold",
+        "italic": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/currencies",
+        "bold": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/currencies",
+        "italic": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/currencies",
+        "bold_italic": "\/home\/andrewd\/public_html\/2024_Staging\/wp-content\/uploads\/wpo_wcpdf_8151c81e02e0f1d6a72aeae10584811f\/fonts\/currencies"
+    }
+}
