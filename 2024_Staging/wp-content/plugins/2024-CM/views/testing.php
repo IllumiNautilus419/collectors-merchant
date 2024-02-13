@@ -1,6 +1,7 @@
 <?php
 
 # from remote
+# and from server
 use CMERCH\CORE;
 
 $c = new CORE();
