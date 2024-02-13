@@ -1,0 +1,1452 @@
+2024-02-04T20:42:03+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:42:18+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:42:42+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:43:16+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:43:50+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:44:06+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:44:08+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:44:10+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/index.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:44:18+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:44:47+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/index.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:45:32+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/index.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:45:35+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(26): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/index.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:47:33+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(27): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:48:20+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(27): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:49:01+00:00 CRITICAL Uncaught Error: Class "CM\CORE" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/classes/loadClasses.php(9): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(24): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#11 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:49:45+00:00 CRITICAL Uncaught Error: Object of class CMERCH\CORE could not be converted to string in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/classes/loadClasses.php(9): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(24): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#11 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:50:21+00:00 CRITICAL Uncaught Error: Object of class CMERCH\CORE could not be converted to string in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/classes/loadClasses.php(9): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(24): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:50:21+00:00 CRITICAL Uncaught Error: Object of class CMERCH\CORE could not be converted to string in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/classes/loadClasses.php(9): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(24): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#11 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:50:22+00:00 CRITICAL Uncaught Error: Object of class CMERCH\CORE could not be converted to string in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/classes/loadClasses.php(9): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(24): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#11 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:50:31+00:00 CRITICAL Uncaught Error: Object of class CMERCH\CORE could not be converted to string in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(27): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T20:50:32+00:00 CRITICAL Uncaught Error: Object of class CMERCH\CORE could not be converted to string in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(27): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T21:12:25+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(9): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#13 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T21:12:33+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(9): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T21:13:10+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(9): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#13 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T21:13:31+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(9): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#13 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T21:14:35+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(9): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T21:16:18+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(9): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#13 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T21:16:34+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(9): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T21:18:36+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(9): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T21:20:36+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(9): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T21:20:53+00:00 CRITICAL Uncaught Error: Class "GuzzleHttp\Client" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:3
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 3
+
+2024-02-04T21:23:24+00:00 CRITICAL Uncaught Error: Call to a member function getBody() on null in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:17
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 17
+
+2024-02-04T21:29:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function GuzzleHttp\Psr7\Stream::read(), 0 passed in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 16 and exactly 1 expected in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/psr7/src/Stream.php:217
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(16): GuzzleHttp\Psr7\Stream->read()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#11 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/psr7/src/Stream.php on line 217
+
+2024-02-04T21:30:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function GuzzleHttp\Psr7\Stream::read(), 0 passed in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 16 and exactly 1 expected in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/psr7/src/Stream.php:217
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(16): GuzzleHttp\Psr7\Stream->read()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/psr7/src/Stream.php on line 217
+
+2024-02-04T21:40:09+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Psr7\Request::get_body() in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:6
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 6
+
+2024-02-04T21:40:10+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Psr7\Request::get_body() in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:6
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 6
+
+2024-02-04T21:41:01+00:00 CRITICAL Uncaught Error: Call to a member function getStatusCode() on null in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T21:41:10+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Psr7\Request::getStatusCode() in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T21:41:13+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Psr7\Request::getStatusCode() in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T21:42:48+00:00 CRITICAL Uncaught Error: Class "GuzzleHttp\Tests\Server" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:6
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 6
+
+2024-02-04T21:43:49+00:00 CRITICAL Uncaught Error: Class "GuzzleHttp\Tests\Server" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:6
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 6
+
+2024-02-04T21:44:20+00:00 CRITICAL Uncaught Error: Class "GuzzleHttp\Tests\Server" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:6
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 6
+
+2024-02-04T21:44:48+00:00 CRITICAL Uncaught Error: Class "GuzzleHttp\Tests\Server" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:6
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 6
+
+2024-02-04T21:46:51+00:00 CRITICAL Uncaught Error: Class "GuzzleHttp\Tests\Server" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:6
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 6
+
+2024-02-04T21:46:55+00:00 CRITICAL Uncaught GuzzleHttp\Exception\ConnectException: cURL error 7: Failed to connect to 127.0.0.1 port 8126: Connection refused (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:8126/guzzle-server/responses in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Client.php(333): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Client.php(169): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Client.php(189): GuzzleHttp\Client->requestAsync('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/test-server/src/Server.php(75): GuzzleHttp\Client->request('PUT', 'guzzle-server/r...', Array)
+#14 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(7): GuzzleHttp\Server\Server::enqueue(Array)
+#15 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#18 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#19 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#21 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#22 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#23 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#24 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#25 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+
+2024-02-04T21:48:51+00:00 CRITICAL Uncaught GuzzleHttp\Exception\ConnectException: cURL error 7: Failed to connect to 127.0.0.1 port 8126: Connection refused (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:8126/guzzle-server/responses in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Client.php(333): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Client.php(169): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Client.php(189): GuzzleHttp\Client->requestAsync('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/test-server/src/Server.php(75): GuzzleHttp\Client->request('PUT', 'guzzle-server/r...', Array)
+#14 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(7): GuzzleHttp\Server\Server::enqueue(Array)
+#15 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#18 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#19 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#21 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#22 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#23 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#24 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+
+2024-02-04T21:50:51+00:00 CRITICAL Cannot use GuzzleHttp\Server\Server as Server because the name is already in use in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 8
+
+2024-02-04T21:51:16+00:00 CRITICAL Uncaught Error: Call to undefined function exec() in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/test-server/src/Server.php:175
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(10): GuzzleHttp\Server\Server::start()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#11 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/guzzlehttp/test-server/src/Server.php on line 175
+
+2024-02-04T21:51:46+00:00 CRITICAL Uncaught Error: Class "Acme\Client" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:6
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 6
+
+2024-02-04T21:52:47+00:00 CRITICAL Uncaught TypeError: Symfony\Component\BrowserKit\Response::__construct(): Argument #1 ($content) must be of type string, null given, called in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 12 and defined in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/Response.php:34
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(12): Symfony\Component\BrowserKit\Response->__construct(NULL, NULL, NULL)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/AbstractBrowser.php(385): Client->doRequest(Object(Symfony\Component\BrowserKit\Request))
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(16): Symfony\Component\BrowserKit\AbstractBrowser->request('GET', 'https://www.tcg...')
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#13 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/Response.php on line 34
+
+2024-02-04T21:52:52+00:00 CRITICAL Uncaught TypeError: Symfony\Component\BrowserKit\Response::__construct(): Argument #1 ($content) must be of type string, null given, called in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 12 and defined in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/Response.php:34
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(12): Symfony\Component\BrowserKit\Response->__construct(NULL, NULL, NULL)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/AbstractBrowser.php(385): Client->doRequest(Object(Symfony\Component\BrowserKit\Request))
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(16): Symfony\Component\BrowserKit\AbstractBrowser->request('GET', 'https://www.tcg...')
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/Response.php on line 34
+
+2024-02-04T21:54:54+00:00 CRITICAL Uncaught Error: Cannot instantiate abstract class Symfony\Component\BrowserKit\AbstractBrowser in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T21:54:55+00:00 CRITICAL Uncaught Error: Cannot instantiate abstract class Symfony\Component\BrowserKit\AbstractBrowser in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T22:07:53+00:00 CRITICAL Uncaught Error: Cannot access private property Symfony\Component\BrowserKit\Response::$content in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:24
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 24
+
+2024-02-04T22:15:10+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 11
+
+2024-02-04T22:15:13+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 11
+
+2024-02-04T22:16:43+00:00 CRITICAL Uncaught Error: Call to undefined method Symfony\Component\HttpClient\CurlHttpClient::getContent() in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:30
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+
+Next Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php:315
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(167): Symfony\Component\HttpClient\Response\CurlResponse::perform(Object(Symfony\Component\HttpClient\Internal\CurlClientState), Array)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(148): Symfony\Component\HttpClient\Response\CurlResponse::stream(Array, NULL)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(130): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(242): Symfony\Component\HttpClient\Response\CurlResponse->doDestruct()
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): Symfony\Component\HttpClient\Response\CurlResponse->__destruct()
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#8 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#11 {main}
+
+Next Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php:56
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(149): Symfony\Component\HttpClient\Chunk\ErrorChunk->isFirst()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(130): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(242): Symfony\Component\HttpClient\Response\CurlResponse->doDestruct()
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): Symfony\Component\HttpClient\Response\CurlResponse->__destruct()
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php on line 56
+
+2024-02-04T22:16:43+00:00 CRITICAL Uncaught Error: Call to undefined method Symfony\Component\HttpClient\CurlHttpClient::getContent() in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:30
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+
+Next Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php:315
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(167): Symfony\Component\HttpClient\Response\CurlResponse::perform(Object(Symfony\Component\HttpClient\Internal\CurlClientState), Array)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(148): Symfony\Component\HttpClient\Response\CurlResponse::stream(Array, NULL)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(130): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(242): Symfony\Component\HttpClient\Response\CurlResponse->doDestruct()
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): Symfony\Component\HttpClient\Response\CurlResponse->__destruct()
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#8 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#12 {main}
+
+Next Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php:56
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(149): Symfony\Component\HttpClient\Chunk\ErrorChunk->isFirst()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(130): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(242): Symfony\Component\HttpClient\Response\CurlResponse->doDestruct()
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): Symfony\Component\HttpClient\Response\CurlResponse->__destruct()
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#11 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php on line 56
+
+2024-02-04T22:17:04+00:00 CRITICAL Uncaught Error: Call to undefined method Symfony\Component\HttpClient\CurlHttpClient::getContent() in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:30
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#9 {main}
+
+Next Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php:315
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(167): Symfony\Component\HttpClient\Response\CurlResponse::perform(Object(Symfony\Component\HttpClient\Internal\CurlClientState), Array)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(148): Symfony\Component\HttpClient\Response\CurlResponse::stream(Array, NULL)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(130): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(242): Symfony\Component\HttpClient\Response\CurlResponse->doDestruct()
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): Symfony\Component\HttpClient\Response\CurlResponse->__destruct()
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#8 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#11 {main}
+
+Next Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php:56
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(149): Symfony\Component\HttpClient\Chunk\ErrorChunk->isFirst()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(130): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(242): Symfony\Component\HttpClient\Response\CurlResponse->doDestruct()
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): Symfony\Component\HttpClient\Response\CurlResponse->__destruct()
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php on line 56
+
+2024-02-04T22:18:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Symfony\Component\HttpClient\ScopingHttpClient::__construct(), 1 passed in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 9 and at least 2 expected in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/ScopingHttpClient.php:35
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(9): Symfony\Component\HttpClient\ScopingHttpClient->__construct(Object(Symfony\Component\HttpClient\CurlHttpClient))
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#11 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/ScopingHttpClient.php on line 35
+
+2024-02-04T22:18:26+00:00 CRITICAL Uncaught Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php:315
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(167): Symfony\Component\HttpClient\Response\CurlResponse::perform(Object(Symfony\Component\HttpClient\Internal\CurlClientState), Array)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(148): Symfony\Component\HttpClient\Response\CurlResponse::stream(Array, NULL)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(43): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(229): Symfony\Component\HttpClient\Response\CurlResponse->doGetContent(true)
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(30): Symfony\Component\HttpClient\Response\CurlResponse->getContent()
+#5 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#8 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#15 {main}
+
+Next Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php:56
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(149): Symfony\Component\HttpClient\Chunk\ErrorChunk->isFirst()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(43): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(229): Symfony\Component\HttpClient\Response\CurlResponse->doGetContent(true)
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(30): Symfony\Component\HttpClient\Response\CurlResponse->getContent()
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php on line 56
+
+2024-02-04T22:18:45+00:00 CRITICAL Uncaught Symfony\Component\HttpClient\Exception\InvalidArgumentException: Unsupported option "debug" passed to "Symfony\Component\HttpClient\CurlHttpClient", did you mean "auth_basic", "auth_bearer", "query", "headers", "body", "json", "user_data", "max_redirects", "http_version", "base_uri", "buffer", "on_progress", "resolve", "proxy", "no_proxy", "timeout", "max_duration", "bindto", "verify_peer", "verify_host", "cafile", "capath", "local_cert", "local_pk", "passphrase", "ciphers", "peer_fingerprint", "capture_peer_cert_chain", "crypto_method", "extra", "auth_ntlm"? in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/HttpClientTrait.php:269
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/HttpClientTrait.php(56): Symfony\Component\HttpClient\CurlHttpClient::mergeDefaultOptions(Array, Array, false)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/CurlHttpClient.php(91): Symfony\Component\HttpClient\CurlHttpClient::prepareRequest('GET', 'https://www.tcg...', Array, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(14): Symfony\Component\HttpClient\CurlHttpClient->request('GET', 'https://www.tcg...', Array)
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#13 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/HttpClientTrait.php on line 269
+
+2024-02-04T22:19:05+00:00 CRITICAL Uncaught Symfony\Component\HttpClient\Exception\InvalidArgumentException: Unsupported option "debug" passed to "Symfony\Component\HttpClient\CurlHttpClient", did you mean "auth_basic", "auth_bearer", "query", "headers", "body", "json", "user_data", "max_redirects", "http_version", "base_uri", "buffer", "on_progress", "resolve", "proxy", "no_proxy", "timeout", "max_duration", "bindto", "verify_peer", "verify_host", "cafile", "capath", "local_cert", "local_pk", "passphrase", "ciphers", "peer_fingerprint", "capture_peer_cert_chain", "crypto_method", "extra", "auth_ntlm"? in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/HttpClientTrait.php:269
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/HttpClientTrait.php(56): Symfony\Component\HttpClient\CurlHttpClient::mergeDefaultOptions(Array, Array, false)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/CurlHttpClient.php(91): Symfony\Component\HttpClient\CurlHttpClient::prepareRequest('GET', 'https://www.tcg...', Array, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(14): Symfony\Component\HttpClient\CurlHttpClient->request('GET', 'https://www.tcg...', Array)
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/HttpClientTrait.php on line 269
+
+2024-02-04T22:19:51+00:00 CRITICAL Uncaught Error: Call to a member function getContent() on int in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:33
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(127): test(0, 0, Array)
+#1 [internal function]: Symfony\Component\HttpClient\Response\CurlResponse::Symfony\Component\HttpClient\Response\{closure}(Object(CurlHandle), 0, 0, 0, 0)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(284): curl_multi_exec(Object(CurlMultiHandle), 0)
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(167): Symfony\Component\HttpClient\Response\CurlResponse::perform(Object(Symfony\Component\HttpClient\Internal\CurlClientState), Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(148): Symfony\Component\HttpClient\Response\CurlResponse::stream(Array, NULL)
+#5 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(43): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#6 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(229): Symfony\Component\HttpClient\Response\CurlResponse->doGetContent(true)
+#7 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(36): Symfony\Component\HttpClient\Response\CurlResponse->getContent()
+#8 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#11 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#14 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#18 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 33
+
+2024-02-04T22:20:14+00:00 CRITICAL Uncaught Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php:315
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(167): Symfony\Component\HttpClient\Response\CurlResponse::perform(Object(Symfony\Component\HttpClient\Internal\CurlClientState), Array)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(148): Symfony\Component\HttpClient\Response\CurlResponse::stream(Array, NULL)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(43): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(229): Symfony\Component\HttpClient\Response\CurlResponse->doGetContent(true)
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(36): Symfony\Component\HttpClient\Response\CurlResponse->getContent()
+#5 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#8 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#15 {main}
+
+Next Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php:56
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(149): Symfony\Component\HttpClient\Chunk\ErrorChunk->isFirst()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(43): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(229): Symfony\Component\HttpClient\Response\CurlResponse->doGetContent(true)
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(36): Symfony\Component\HttpClient\Response\CurlResponse->getContent()
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php on line 56
+
+2024-02-04T22:20:40+00:00 CRITICAL Uncaught Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php:315
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/TransportResponseTrait.php(167): Symfony\Component\HttpClient\Response\CurlResponse::perform(Object(Symfony\Component\HttpClient\Internal\CurlClientState), Array)
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(148): Symfony\Component\HttpClient\Response\CurlResponse::stream(Array, NULL)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(43): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(229): Symfony\Component\HttpClient\Response\CurlResponse->doGetContent(true)
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(31): Symfony\Component\HttpClient\Response\CurlResponse->getContent()
+#5 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#8 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#15 {main}
+
+Next Symfony\Component\HttpClient\Exception\TransportException: Failed sending HTTP request for "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/magic-the-gathering/price-guides". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php:56
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(149): Symfony\Component\HttpClient\Chunk\ErrorChunk->isFirst()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php(43): Symfony\Component\HttpClient\Response\CurlResponse::initialize(Object(Symfony\Component\HttpClient\Response\CurlResponse))
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php(229): Symfony\Component\HttpClient\Response\CurlResponse->doGetContent(true)
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(31): Symfony\Component\HttpClient\Response\CurlResponse->getContent()
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Component/HttpClient/Chunk/ErrorChunk.php on line 56
+
+2024-02-04T22:25:22+00:00 CRITICAL Uncaught Error: Class "Controller" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T22:25:37+00:00 CRITICAL Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:5
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T22:26:09+00:00 CRITICAL Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/KernelTestCase.php:26
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(582): include()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/WebTestCase.php(22): Composer\Autoload\ClassLoader->loadClass('Symfony\\Bundle\\...')
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(582): include('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/andrewd/p...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\Bundle\\...')
+#6 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/PantherTestCase.php(19): class_exists('Symfony\\Bundle\\...')
+#7 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(582): include('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#10 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#13 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#16 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#18 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#19 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#20 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/KernelTestCase.php on line 26
+
+2024-02-04T22:27:09+00:00 CRITICAL Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/KernelTestCase.php:26
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(582): include()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/WebTestCase.php(22): Composer\Autoload\ClassLoader->loadClass('Symfony\\Bundle\\...')
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(582): include('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/andrewd/p...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\Bundle\\...')
+#6 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/PantherTestCase.php(19): class_exists('Symfony\\Bundle\\...')
+#7 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(582): include('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#10 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#13 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#16 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#18 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#19 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/KernelTestCase.php on line 26
+
+2024-02-04T22:29:11+00:00 CRITICAL Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/KernelTestCase.php:26
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(582): include()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/andrewd/p...')
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/WebTestCase.php(22): Composer\Autoload\ClassLoader->loadClass('Symfony\\Bundle\\...')
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(582): include('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/andrewd/p...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\Bundle\\...')
+#6 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/PantherTestCase.php(19): class_exists('Symfony\\Bundle\\...')
+#7 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(582): include('/home/andrewd/p...')
+#8 /home/andrewd/public_html/2024_Staging/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/andrewd/p...')
+#9 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#10 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#13 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#16 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#18 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#19 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/KernelTestCase.php on line 26
+
+2024-02-04T22:30:59+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#13 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T22:31:11+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T22:33:12+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T22:35:02+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin.php(34): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/2024_Staging/wp-admin/plugins.php(10): require_once('/home/andrewd/p...')
+#13 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T22:35:13+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T22:37:14+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T22:39:16+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T22:41:16+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T22:43:17+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T22:45:19+00:00 CRITICAL Uncaught RuntimeException: "chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers". in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php:92
+Stack trace:
+#0 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php(40): Symfony\Component\Panther\ProcessManager\ChromeManager->findChromeDriverBinary()
+#1 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/Client.php(69): Symfony\Component\Panther\ProcessManager\ChromeManager->__construct(NULL, NULL, Array)
+#2 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(5): Symfony\Component\Panther\Client::createChromeClient()
+#3 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#6 /home/andrewd/public_html/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /home/andrewd/public_html/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/andrewd/public_html/2024_Staging/wp-settings.php(643): do_action('init')
+#9 /home/andrewd/public_html/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/2024_Staging/wp-admin/admin-ajax.php(22): require_once('/home/andrewd/p...')
+#12 {main}
+  thrown in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/vendor/symfony/panther/src/ProcessManager/ChromeManager.php on line 92
+
+2024-02-04T22:46:00+00:00 CRITICAL syntax error, unexpected token "<" in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
+2024-02-04T22:46:01+00:00 CRITICAL syntax error, unexpected token "<" in /home/andrewd/public_html/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 5
+
