@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/andrewd/public_html/collectors-merchant/
+    - /bin/cp -R * $DEPLOYPATH.

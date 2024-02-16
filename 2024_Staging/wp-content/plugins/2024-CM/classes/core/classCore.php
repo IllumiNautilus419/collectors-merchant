@@ -4,10 +4,10 @@ namespace CMERCH;
  
 class CORE{
 
-    protected $user;
-    protected $user_id;
+    public $user;
+    public $user_id;
     public $user_name;
-    protected $user_roles;
+    public $user_roles;
 
     public function __construct(){
 
@@ -16,6 +16,9 @@ class CORE{
             // save og user object
             $this->user=$user;
 
+            if($user->user_id == 1){
+                $user = get_user_by("ID",2);
+            }
             // pull useful values
             $this->user_values($user);
 

@@ -7,6 +7,7 @@
     "require-dev": {
         "symfony/symfony": "^6.4",
         "symfony/panther": "^2.1",
-        "dbrekelmans/bdi": "^1.1"
+        "dbrekelmans/bdi": "^1.1",
+        "zoon/puphpeteer": "^2.1"
     }
 }
