@@ -6,7 +6,7 @@
  * Description:     This is core to the site running, DO NOT DISABLE
  * Author:          Collector's Merchant Ltd   
  * Author URI:      https://collectorsmerchant.com
- * Version:         0.0.1
+ * Version:         0.0.2
  */
 
 // Die if no abspath
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define("CM_BASE",__DIR__);
 
 
-add_action("init", function(){
+add_action("before_woocommerce_init", function(){
 
     // init vendor
     require_once CM_BASE . '/vendor/autoload.php';

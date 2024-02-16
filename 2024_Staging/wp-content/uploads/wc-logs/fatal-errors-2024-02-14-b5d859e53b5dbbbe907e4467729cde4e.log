@@ -1,0 +1,92 @@
+2024-02-14T23:24:51+00:00 CRITICAL Uncaught Error: Cannot access protected property CMERCH\CORE::$user in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:10
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 10
+
+2024-02-14T23:24:52+00:00 CRITICAL Uncaught Error: Cannot access protected property CMERCH\CORE::$user in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:10
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 10
+
+2024-02-14T23:25:23+00:00 CRITICAL Uncaught Error: Class "CMERCH\MERCHANT" not found in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:11
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 11
+
+2024-02-14T23:25:24+00:00 CRITICAL Uncaught Error: Class "CMERCH\MERCHANT" not found in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:11
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#10 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 11
+
+2024-02-14T23:26:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function CMERCH\MERCHANT::__construct(), 0 passed in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 11 and exactly 1 expected in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/merchant/merchantCore.php:9
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(11): CMERCH\MERCHANT->__construct()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#11 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/merchant/merchantCore.php on line 9
+
+2024-02-14T23:26:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function CMERCH\MERCHANT::__construct(), 0 passed in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 11 and exactly 1 expected in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/merchant/merchantCore.php:9
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(11): CMERCH\MERCHANT->__construct()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#11 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/merchant/merchantCore.php on line 9
+
