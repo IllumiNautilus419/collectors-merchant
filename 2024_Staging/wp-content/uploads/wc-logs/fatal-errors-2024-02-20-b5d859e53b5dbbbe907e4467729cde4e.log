@@ -1,0 +1,524 @@
+2024-02-20T21:02:09+00:00 CRITICAL Uncaught Error: Class "CMERHC\FILE_SYS" not found in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:12
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 12
+
+2024-02-20T21:02:10+00:00 CRITICAL Uncaught Error: Class "CMERHC\FILE_SYS" not found in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:12
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 12
+
+2024-02-20T21:02:29+00:00 CRITICAL Uncaught Error: Class "CMERHC\FILE_SYS" not found in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:12
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 12
+
+2024-02-20T21:02:30+00:00 CRITICAL Uncaught Error: Class "CMERHC\FILE_SYS" not found in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:12
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 12
+
+2024-02-20T21:22:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function CMERCH\FILE_SYS::saveFromUrl(), 1 passed in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 17 and exactly 2 expected in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:30
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('https://product...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#15 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 30
+
+2024-02-20T21:22:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function CMERCH\FILE_SYS::saveFromUrl(), 1 passed in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 17 and exactly 2 expected in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:30
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('https://product...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#15 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 30
+
+2024-02-20T21:22:52+00:00 CRITICAL Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:35
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php(35): fwrite(false, '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#16 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 35
+
+2024-02-20T21:22:53+00:00 CRITICAL Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:35
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php(35): fwrite(false, '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#16 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 35
+
+2024-02-20T21:23:20+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:34
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php(34): fopen('', 'a+')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#16 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 34
+
+2024-02-20T21:23:21+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:34
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php(34): fopen('', 'a+')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#16 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 34
+
+2024-02-20T21:24:49+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:34
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php(34): fopen('', 'w+')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#16 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 34
+
+2024-02-20T21:24:51+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:34
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php(34): fopen('', 'w+')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#16 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 34
+
+2024-02-20T22:56:21+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:32
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php(32): getimagesize('')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#16 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 32
+
+2024-02-20T22:56:22+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:32
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php(32): getimagesize('')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#16 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 32
+
+2024-02-20T23:09:34+00:00 CRITICAL Uncaught Error: Call to a member function getSetDir() on string in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:16
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 16
+
+2024-02-20T23:09:35+00:00 CRITICAL Uncaught Error: Call to a member function getSetDir() on string in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:16
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 16
+
+2024-02-20T23:17:05+00:00 CRITICAL Uncaught Error: Call to undefined function CMERCH\download_url() in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:47
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#15 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 47
+
+2024-02-20T23:17:06+00:00 CRITICAL Uncaught Error: Call to undefined function CMERCH\download_url() in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:47
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#15 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 47
+
+2024-02-20T23:17:16+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:46
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php(46): file_get_contents('')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#16 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 46
+
+2024-02-20T23:17:17+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:46
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php(46): file_get_contents('')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#16 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 46
+
+2024-02-20T23:17:52+00:00 CRITICAL Uncaught Error: Call to undefined function CMERCH\wp_generate_attachment_metadata() in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:62
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#15 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 62
+
+2024-02-20T23:17:53+00:00 CRITICAL Uncaught Error: Call to undefined function CMERCH\wp_generate_attachment_metadata() in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:62
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#15 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 62
+
+2024-02-20T23:17:55+00:00 CRITICAL Uncaught Error: Call to undefined function CMERCH\wp_generate_attachment_metadata() in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:62
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#15 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 62
+
+2024-02-20T23:17:56+00:00 CRITICAL Uncaught Error: Call to undefined function CMERCH\wp_generate_attachment_metadata() in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:62
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#15 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 62
+
+2024-02-20T23:18:03+00:00 CRITICAL Uncaught Error: Call to undefined function wp_generate_attachment_metadata() in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:62
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#15 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 62
+
+2024-02-20T23:18:04+00:00 CRITICAL Uncaught Error: Call to undefined function wp_generate_attachment_metadata() in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php:62
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(17): CMERCH\FILE_SYS->saveFromUrl('test', 'https://product...')
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#15 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/classes/core/fileHandler.php on line 62
+

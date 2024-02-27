@@ -1,0 +1,492 @@
+2024-02-17T00:08:17+00:00 CRITICAL Uncaught Symfony\Component\Process\Exception\ProcessFailedException: The command "'node' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/serve.js' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js' '{"idle_timeout":60,"log_node_console":false,"log_browser_console":false,"js_extra":""}'" failed.
+
+Exit Code: 1(General error)
+
+Working directory: /home/andrewd/public_html/collectors-merchant-2024/2024_Staging
+
+Output:
+================
+43677
+
+
+Error Output:
+================
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+{"__rialto_error__":true,"message":"Cannot read properties of null (reading 'innerText')","stack":"TypeError: Cannot read properties of null (reading 'innerText')\n    at evaluate (evaluate at Instruction.callResourceMethod (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/Instruction.js:186:40), <anonymous>:6:87)\n    at ExecutionContext._ExecutionContext_evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:262:51)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:145:16)\n    at async PuppeteerConnectionDelegate.handleInstruction (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js:39:15)"} in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php:309
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(387): Nesk\Rialto\ProcessSupervisor->checkProcessStatus()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(84): Nesk\Rialto\ProcessSupervisor->executeInstruction(Object(Nesk\Rialto\Instruction))
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(100): Nesk\Rialto\Data\BasicResource->proxyAction('call', 'evaluate', Array)
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(79): Nesk\Rialto\Data\BasicResource->__call('evaluate', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#18 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php on line 309
+
+2024-02-17T00:08:50+00:00 CRITICAL Uncaught Symfony\Component\Process\Exception\ProcessFailedException: The command "'node' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/serve.js' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js' '{"idle_timeout":60,"log_node_console":false,"log_browser_console":false,"js_extra":""}'" failed.
+
+Exit Code: 1(General error)
+
+Working directory: /home/andrewd/public_html/collectors-merchant-2024/2024_Staging
+
+Output:
+================
+36771
+
+
+Error Output:
+================
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+{"__rialto_error__":true,"message":"Cannot read properties of null (reading 'innerText')","stack":"TypeError: Cannot read properties of null (reading 'innerText')\n    at evaluate (evaluate at Instruction.callResourceMethod (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/Instruction.js:186:40), <anonymous>:6:87)\n    at ExecutionContext._ExecutionContext_evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:262:51)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:145:16)\n    at async PuppeteerConnectionDelegate.handleInstruction (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js:39:15)"} in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php:309
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(387): Nesk\Rialto\ProcessSupervisor->checkProcessStatus()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(84): Nesk\Rialto\ProcessSupervisor->executeInstruction(Object(Nesk\Rialto\Instruction))
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(100): Nesk\Rialto\Data\BasicResource->proxyAction('call', 'evaluate', Array)
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(79): Nesk\Rialto\Data\BasicResource->__call('evaluate', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#18 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php on line 309
+
+2024-02-17T23:40:15+00:00 CRITICAL Uncaught TypeError: Illegal offset type in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:63
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 63
+
+2024-02-17T23:40:39+00:00 CRITICAL Uncaught TypeError: Illegal offset type in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:63
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 63
+
+2024-02-17T23:42:47+00:00 CRITICAL Uncaught TypeError: Illegal offset type in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:63
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 63
+
+2024-02-17T23:43:10+00:00 CRITICAL Uncaught TypeError: Illegal offset type in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:63
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 63
+
+2024-02-17T23:43:40+00:00 CRITICAL Uncaught TypeError: Illegal offset type in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:65
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 65
+
+2024-02-17T23:44:08+00:00 CRITICAL Uncaught TypeError: Illegal offset type in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:65
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 65
+
+2024-02-17T23:46:12+00:00 CRITICAL Uncaught TypeError: Illegal offset type in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:65
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 65
+
+2024-02-17T23:46:36+00:00 CRITICAL Uncaught TypeError: Illegal offset type in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:65
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 65
+
+2024-02-17T23:54:47+00:00 CRITICAL Uncaught Error: Undefined constant "ob" in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:66
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 66
+
+2024-02-17T23:55:11+00:00 CRITICAL Uncaught Error: Undefined constant "ob" in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:66
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 66
+
+2024-02-17T23:55:24+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:66
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 66
+
+2024-02-17T23:55:49+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:66
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 66
+
+2024-02-17T23:56:14+00:00 CRITICAL Uncaught Symfony\Component\Process\Exception\ProcessFailedException: The command "'node' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/serve.js' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js' '{"idle_timeout":60,"log_node_console":false,"log_browser_console":false,"js_extra":""}'" failed.
+
+Exit Code: 1(General error)
+
+Working directory: /home/andrewd/public_html/collectors-merchant-2024/2024_Staging
+
+Output:
+================
+41085
+
+
+Error Output:
+================
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+{"__rialto_error__":true,"message":"Illegal return statement","stack":"SyntaxError: Illegal return statement\n    at ExecutionContext._ExecutionContext_evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:232:55)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:145:16)\n    at async CDPJSHandle.evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/JSHandle.js:60:16)\n    at async PuppeteerConnectionDelegate.handleInstruction (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js:39:15)"} in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php:309
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(387): Nesk\Rialto\ProcessSupervisor->checkProcessStatus()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(84): Nesk\Rialto\ProcessSupervisor->executeInstruction(Object(Nesk\Rialto\Instruction))
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(100): Nesk\Rialto\Data\BasicResource->proxyAction('call', 'evaluate', Array)
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(66): Nesk\Rialto\Data\BasicResource->__call('evaluate', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#18 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php on line 309
+
+2024-02-17T23:56:38+00:00 CRITICAL Uncaught Symfony\Component\Process\Exception\ProcessFailedException: The command "'node' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/serve.js' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js' '{"idle_timeout":60,"log_node_console":false,"log_browser_console":false,"js_extra":""}'" failed.
+
+Exit Code: 1(General error)
+
+Working directory: /home/andrewd/public_html/collectors-merchant-2024/2024_Staging
+
+Output:
+================
+36007
+
+
+Error Output:
+================
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+{"__rialto_error__":true,"message":"Illegal return statement","stack":"SyntaxError: Illegal return statement\n    at ExecutionContext._ExecutionContext_evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:232:55)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:145:16)\n    at async CDPJSHandle.evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/JSHandle.js:60:16)\n    at async PuppeteerConnectionDelegate.handleInstruction (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js:39:15)"} in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php:309
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(387): Nesk\Rialto\ProcessSupervisor->checkProcessStatus()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(84): Nesk\Rialto\ProcessSupervisor->executeInstruction(Object(Nesk\Rialto\Instruction))
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(100): Nesk\Rialto\Data\BasicResource->proxyAction('call', 'evaluate', Array)
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(66): Nesk\Rialto\Data\BasicResource->__call('evaluate', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#18 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php on line 309
+
+2024-02-17T23:57:32+00:00 CRITICAL Uncaught Symfony\Component\Process\Exception\ProcessFailedException: The command "'node' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/serve.js' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js' '{"idle_timeout":60,"log_node_console":false,"log_browser_console":false,"js_extra":""}'" failed.
+
+Exit Code: 1(General error)
+
+Working directory: /home/andrewd/public_html/collectors-merchant-2024/2024_Staging
+
+Output:
+================
+39007
+
+
+Error Output:
+================
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+{"__rialto_error__":true,"message":"ob is not defined","stack":"ReferenceError: ob is not defined\n    at evaluate (evaluate at Instruction.callResourceMethod (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/Instruction.js:186:40), <anonymous>:2:16)\n    at ExecutionContext._ExecutionContext_evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:262:51)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:145:16)\n    at async CDPJSHandle.evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/JSHandle.js:60:16)\n    at async PuppeteerConnectionDelegate.handleInstruction (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js:39:15)"} in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php:309
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(387): Nesk\Rialto\ProcessSupervisor->checkProcessStatus()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(84): Nesk\Rialto\ProcessSupervisor->executeInstruction(Object(Nesk\Rialto\Instruction))
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(100): Nesk\Rialto\Data\BasicResource->proxyAction('call', 'evaluate', Array)
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(66): Nesk\Rialto\Data\BasicResource->__call('evaluate', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#18 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php on line 309
+
+2024-02-17T23:58:00+00:00 CRITICAL Uncaught Symfony\Component\Process\Exception\ProcessFailedException: The command "'node' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/serve.js' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js' '{"idle_timeout":60,"log_node_console":false,"log_browser_console":false,"js_extra":""}'" failed.
+
+Exit Code: 1(General error)
+
+Working directory: /home/andrewd/public_html/collectors-merchant-2024/2024_Staging
+
+Output:
+================
+39033
+
+
+Error Output:
+================
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+{"__rialto_error__":true,"message":"ob is not defined","stack":"ReferenceError: ob is not defined\n    at evaluate (evaluate at Instruction.callResourceMethod (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/Instruction.js:186:40), <anonymous>:2:16)\n    at ExecutionContext._ExecutionContext_evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:262:51)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:145:16)\n    at async CDPJSHandle.evaluate (/home/andrewd/node_modules/puppeteer-core/lib/cjs/puppeteer/common/JSHandle.js:60:16)\n    at async PuppeteerConnectionDelegate.handleInstruction (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js:39:15)"} in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php:309
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(387): Nesk\Rialto\ProcessSupervisor->checkProcessStatus()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(84): Nesk\Rialto\ProcessSupervisor->executeInstruction(Object(Nesk\Rialto\Instruction))
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(100): Nesk\Rialto\Data\BasicResource->proxyAction('call', 'evaluate', Array)
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(66): Nesk\Rialto\Data\BasicResource->__call('evaluate', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#18 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php on line 309
+
