@@ -1,0 +1,135 @@
+2024-02-27T19:17:15+00:00 CRITICAL Uncaught Symfony\Component\Process\Exception\ProcessFailedException: The command "'node' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/serve.js' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js' '{"idle_timeout":60,"log_node_console":false,"log_browser_console":false,"js_extra":""}'" failed.
+
+Exit Code: 1(General error)
+
+Working directory: /home/andrewd/public_html/collectors-merchant-2024/2024_Staging
+
+Output:
+================
+42815
+
+
+Error Output:
+================
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+{"__rialto_error__":true,"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at Connection.handleSocketData (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/Connection.js:62:50)\n    at Socket.<anonymous> (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/Connection.js:49:18)\n    at Socket.emit (node:events:514:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:293:11)\n    at Readable.push (node:internal/streams/readable:234:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)"} in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php:309
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(423): Nesk\Rialto\ProcessSupervisor->checkProcessStatus()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(382): Nesk\Rialto\ProcessSupervisor->readNextProcessValue(true)
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(84): Nesk\Rialto\ProcessSupervisor->executeInstruction(Object(Nesk\Rialto\Instruction))
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(100): Nesk\Rialto\Data\BasicResource->proxyAction('call', 'evaluate', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(45): Nesk\Rialto\Data\BasicResource->__call('evaluate', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#18 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#19 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php on line 309
+
+2024-02-27T19:17:51+00:00 CRITICAL Uncaught Symfony\Component\Process\Exception\ProcessFailedException: The command "'node' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/serve.js' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js' '{"idle_timeout":60,"log_node_console":false,"log_browser_console":false,"js_extra":""}'" failed.
+
+Exit Code: 1(General error)
+
+Working directory: /home/andrewd/public_html/collectors-merchant-2024/2024_Staging
+
+Output:
+================
+44011
+
+
+Error Output:
+================
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+{"__rialto_error__":true,"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at Connection.handleSocketData (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/Connection.js:62:50)\n    at Socket.<anonymous> (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/Connection.js:49:18)\n    at Socket.emit (node:events:514:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:293:11)\n    at Readable.push (node:internal/streams/readable:234:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)"} in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php:309
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(423): Nesk\Rialto\ProcessSupervisor->checkProcessStatus()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(382): Nesk\Rialto\ProcessSupervisor->readNextProcessValue(true)
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(84): Nesk\Rialto\ProcessSupervisor->executeInstruction(Object(Nesk\Rialto\Instruction))
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(100): Nesk\Rialto\Data\BasicResource->proxyAction('call', 'evaluate', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(45): Nesk\Rialto\Data\BasicResource->__call('evaluate', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#18 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#19 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php on line 309
+
+2024-02-27T19:17:51+00:00 CRITICAL Uncaught Symfony\Component\Process\Exception\ProcessFailedException: The command "'node' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/serve.js' '/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/puphpeteer/src/PuppeteerConnectionDelegate.js' '{"idle_timeout":60,"log_node_console":false,"log_browser_console":false,"js_extra":""}'" failed.
+
+Exit Code: 1(General error)
+
+Working directory: /home/andrewd/public_html/collectors-merchant-2024/2024_Staging
+
+Output:
+================
+44547
+
+
+Error Output:
+================
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+{"__rialto_error__":true,"message":"Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at Connection.handleSocketData (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/Connection.js:62:50)\n    at Socket.<anonymous> (/home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/node-process/Connection.js:49:18)\n    at Socket.emit (node:events:514:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:293:11)\n    at Readable.push (node:internal/streams/readable:234:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)"} in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php:309
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(423): Nesk\Rialto\ProcessSupervisor->checkProcessStatus()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php(382): Nesk\Rialto\ProcessSupervisor->readNextProcessValue(true)
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(84): Nesk\Rialto\ProcessSupervisor->executeInstruction(Object(Nesk\Rialto\Instruction))
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/Traits/CommunicatesWithProcessSupervisor.php(100): Nesk\Rialto\Data\BasicResource->proxyAction('call', 'evaluate', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php(45): Nesk\Rialto\Data\BasicResource->__call('evaluate', Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once('/home/andrewd/p...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#15 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#16 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#17 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#18 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#19 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/vendor/zoon/rialto/src/ProcessSupervisor.php on line 309
+

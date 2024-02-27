@@ -1,0 +1,75 @@
+2024-02-25T02:19:14+00:00 CRITICAL Uncaught Error: Class "CMERCH\UTIL\FORM_CONROLLER" not found in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:14
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-cron.php(46): require_once('/home/andrewd/p...')
+#13 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 14
+
+2024-02-25T19:21:56+00:00 CRITICAL Uncaught Error: Class "CMERCH\UTIL\FORM_CONROLLER" not found in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:14
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 14
+
+2024-02-25T19:21:58+00:00 CRITICAL Uncaught Error: Class "CMERCH\UTIL\FORM_CONROLLER" not found in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:14
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 14
+
+2024-02-25T20:46:44+00:00 CRITICAL Uncaught Error: Class "CMERCH\UTIL\FORM_CONROLLER" not found in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php:14
+Stack trace:
+#0 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/loadViews.php(6): require_once()
+#1 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/index.php(30): require_once('/home/andrewd/p...')
+#2 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(701): do_action('before_woocomme...')
+#6 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#7 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-settings.php(643): do_action('init')
+#10 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-config.php(100): require_once('/home/andrewd/p...')
+#11 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-load.php(50): require_once('/home/andrewd/p...')
+#12 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-blog-header.php(13): require_once('/home/andrewd/p...')
+#13 /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/index.php(17): require('/home/andrewd/p...')
+#14 {main}
+  thrown in /home/andrewd/public_html/collectors-merchant-2024/2024_Staging/wp-content/plugins/2024-CM/views/testing.php on line 14
+
